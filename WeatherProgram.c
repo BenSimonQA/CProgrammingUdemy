@@ -17,7 +17,7 @@ int main()
         {1.3, 1.5, 1.7, 1.4, 2.7, 2, 1.8, 1.2, 1.9, 3, 1.2, 14}
     };
 
-    for (year = 0, total; year < 5; ++year)
+    for (year = 0, total=0; year < 5; ++year)
     {
         for (month = 0, subtotal = 0; month < 12; ++month)
         {
