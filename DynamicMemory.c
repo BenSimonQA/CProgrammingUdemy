@@ -17,6 +17,10 @@ int main() {
     printf("You wrote %s with limit of %d\n", str, limit);
     
     free(str);
+
+    char testStr[3];
+    scanf("%s",  testStr);
+    printf("You  wrote %s in length 3", testStr);
     
     return 0;
 }
